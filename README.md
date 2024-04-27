@@ -7,25 +7,17 @@ This module provides a function named `flyToCart` which animates an element to f
 ```javascript
 flyToCart(flyer, flyTo);
 
-const flyer = document.getElementById('flyer'); //element which you wanted to fly to cart
-const flyTo = document.getElementById('flyTo'); //cart icon
+const flyer = document.getElementById('flyer'); // Element to be animated (e.g., product image)
+const flyTo = document.getElementById('flyTo'); // Target element to fly to (e.g., cart icon)
 
 flyToCart(flyer, flyTo);
 
 
-
  Implementation
+ To implement this function, download the code from my GitHub repository and place it in your project's public/js directory as flycart.js. Then include it in your HTML file using the following script tag:
 
-```javascript
-${require('./flyToCart.js')}
-
-download the my git-hub code and paste it in your public/js/flycart.js
-then
 <script src="/public/js/flycart.js"></script>
 
-then you can use the function
-
-flytoCart(flyer, flyto)
 
 ## Demo
 
