@@ -2,6 +2,10 @@
 
 This module provides a function named `flyToCart` which animates an element to fly from one position to another, typically used for adding items to a cart.
 
+
+##display
+![Demo GIF](test/flytocart.gif)
+
 ## Usage
 
 ```javascript
